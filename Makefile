@@ -110,3 +110,8 @@ clean:
 	rm -rf $(DIST_DIR)
 	rm -rf $(BUILD_DIR)
 
+# Deploy to gh-pages
+deploy:
+	git push origin :gh-pages || echo 'git remote branch gh-pages does not exist currently'
+	git subtree push --prefix dist origin gh-pages
+
