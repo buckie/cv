@@ -16,6 +16,8 @@ body {
     padding: $grid-padding;
 }
 
+
+
 /* fonts */
 
 body { font-family: "Palatino", sans-serif; }
@@ -26,16 +28,11 @@ h2 { @include adjust-font-size-to($h2-font-size, $h2-line-multiple); }
 h3 { @include adjust-font-size-to($h3-font-size, $h3-line-multiple); }
 
 p, dt { 
-    -ms-word-break: break-all;
-    word-break: break-all;
-
-    /* Non standard for webkit */
-    word-break: break-word;
-
-    -webkit-hyphens: auto;
-       -moz-hyphens: auto;
-        -ms-hyphens: auto;
-            hyphens: auto;
+    text-align: justify;
+    -webkit-hyphens: none;
+       -moz-hyphens: none;
+        -ms-hyphens: none;
+            hyphens: none;
 }
 
 a { 
@@ -162,12 +159,18 @@ section {
     // span all grid
     @include span(last $total-columns of $total-columns);
 
-    // paragraph
+    //add ability to create bulletpoints
+    ol, ul {
+      list-style: inside;
+      padding-left: 1em;
+      padding-bottom: 0.1em;
+    }
 
+    // paragraph
     > p { 
         @include leader(1);
         @include span(last $total-columns of $total-columns);
-        text-align: justify; 
+        padding-bottom: 0.1em;
     }
 
     // headers
@@ -209,6 +212,19 @@ section {
         @include leader(1); 
     }
 
+    blockquote {
+      text-align:justify;
+      background: #f9f9f9;
+      border-left: 5px solid #ccc;
+      margin: 0.5em 1em;
+      padding: 0.5em 5px;
+
+      -webkit-hyphens: none;
+         -moz-hyphens: none;
+          -ms-hyphens: none;
+              hyphens: none;
+    }
+
     dt {
         @include span(2 of $total-columns);
         text-align: right;
@@ -222,7 +238,7 @@ section {
             font-style: italic;
         } 
     }
-
+    
     // jumbotron
 
     &.jumbotron {
@@ -235,7 +251,7 @@ section {
         @include trailer(1);
 
         &, p {
-            text-align: center;
+            text-align: justify;
         }
     }
 }

@@ -4,7 +4,7 @@ FONTS_DIR = fonts
 SCAFFOLDS_DIR = scaffolds
 IMAGES_DIR = $(SRC_DIR)/images
 DIST_DIR = dist
-HTMLTOPDF = wkpdf
+HTMLTOPDF = wkhtmltopdf
 DATE = $(shell date +'%B %d, %Y')
 
 ifeq "$(wildcard $(SRC_DIR) )" ""
