@@ -13,7 +13,7 @@ settings:
   protect-phone: true
 footer: |
   - [buckie](http://github.com/buckie)
-  - [Will Martino](linkedin.com/in/williammartino)
+  - [Will Martino](http://www.linkedin.com/in/williammartino)
 ---
 
 Profile
@@ -42,25 +42,24 @@ Education
 Experience
 ----------
 
-
-3/2013 – Present
+2/2013 – Present
 :   **Senior Science Advisor**, *Securities and Exchange Commission*, New York, NY
 
-    “Head of Tech” of the Quantitative Analytics Unit in the SEC’s National Exam Program. My scope of responsibilities is quite wide with the general rule being if it involves electricity I’m likely involved - everything from designing our servers to analyzing HFT data to being the Principal Engineer of the National Exam Analytics Tool (NEAT). Unfortunately I cannot go into the details of NEAT but NEAT comprised many firsts for the SEC:
+    “Head of Tech” of the Quantitative Analytics Unit in the SEC’s National Exam Program. My scope of responsibilities was quite wide with the common thread being the subject involving electricity at some point, ranging from designing our servers & computer lab to analyzing HFT data to being the Lead Engineer of the National Exam Analytics Tool (NEAT). Unfortunately the details of NEAT are not yet public but NEAT comprised many firsts for the SEC:
 
     * First internally built software tool
     * First tool created at no cost of the American Taxpayer (it uses free and open source technology)
     * First implementation of algorithmic regulation
     * First proof of concept that “embedded agile” development can work for the SEC
 
-    NEAT was such a wild success that it has been deployed to over one thousand desktops nationwide in the SEC and is being incorporated into the core of the National Exam Program. For a broader description the QAU’s role and what I work on regularly, the below quote from the Financial Times will have to suffice:
+    NEAT was such a wild success that it has been deployed to over one thousand desktops nationwide in the SEC and is being incorporated into the core of the National Exam Program. For a broader description the QAU’s role and what I worked on regularly, the below quote from the Financial Times will have to suffice:
 
-     > The [Quantitative Analytics Unit] is part of the SEC’s examination program and is staffed with PhDs who have spent on average more than a decade in the industry building trading systems, statistical analysis and models. It was launched last spring out of a need to understand better and respond to the rapidly changing computer-driven strategies that dominate the modern market and present compliance and regulatory challenges. The staff’s technical knowledge is being shared within the agency and externally, including at recent meetings with the FBI, to highlight risks and potential areas of market manipulation.
+     > The [Quantitative Analytics Unit] is part of the SEC’s examination program and is staffed with PhDs who have spent on average more than a decade in the industry building trading systems, statistical analysis and models. It was launched... out of a need to understand better and respond to the rapidly changing computer-driven strategies that dominate the modern market and present compliance and regulatory challenges. The staff’s technical knowledge is being shared within the agency and externally, including at recent meetings with the FBI, to highlight risks and potential areas of market manipulation.
 
-    Link to Article
+    [SEC Prompted to Join Tech War](http://www.ft.com/cms/s/53831e32-85b5-11e2-9ee3-00144feabdc0.html)
 
-4/2007 – 5/2013
-:   **Researcher Yale University**, *New Haven*, CT & Remote
+4/2007 – Present
+:   **Researcher** *Yale University*, New Haven, CT & Remote
 
     Created a new fractal geometry based approach for analysis of time series data. Developed algorithms and tools to apply and test the approach. These programs and tools have application in a variety of academic and industrial settings and over diverse data sets such as financial data and fetal heart rhythms. Resulting publications can be found below.
 
@@ -91,8 +90,22 @@ Experience
 
     Worked under Professor Juan de la Mora of the Mechanical Engineering department at Yale. During this work, I uncovered that the results of two years worth of worldwide measurements of ionic liquids were skewed by contamination and that a widely accepted, scientific measurement method was incorrect. Redesign of the methodology yielded not only the desired information but also was the subject of a paper that was published in a leading chemistry journal on which I was awarded first name.
 
-Publications & Research
------------------
+Education ∩ Research ∩ Experience
+---------------------------------
+
+1/2015 – 3/2015
+:   *Hacker School*, New York, NY
+
+    Topics
+      ~ Wavelet Based 1-Dimensional Clustering Algorithm
+      ~ Creating a database optimized for dense, write once, Time Series data domains
+
+    Languages Studied
+      ~ Haskell, JS
+
+
+Publications
+------------
 
 2015
 :   **Multifractal Measures of Time Series: Curvature Surfaces of f(α) Curves**
@@ -119,7 +132,7 @@ Publications & Research
     Completely revamped the methods used to measure surface properties of Ionic Liquids. Work invalidated much of the previous published work on this topic and widely accepted scientific methodology.
 
 
-Interests & Hobbies
+Interests ∪ Hobbies
 ----------------------
 
 Technical
