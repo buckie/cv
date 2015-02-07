@@ -4,6 +4,7 @@ FONTS_DIR = fonts
 SCAFFOLDS_DIR = scaffolds
 IMAGES_DIR = $(SRC_DIR)/images
 DIST_DIR = dist
+DIST_NAME = Will_Martino_CV
 HTMLTOPDF = wkhtmltopdf
 DATE = $(shell date +'%B %d, %Y')
 
@@ -76,14 +77,14 @@ html: media style templates/cv.html parts $(SRC_DIR)/cv.md | directories
 	  $(after-body) \
 	  --variable=date:'$(DATE)' \
 	  --css stylesheets/style.css \
-	  --output $(DIST_DIR)/cv.html $(SRC_DIR)/cv.md
+	  --output $(DIST_DIR)/$(DIST_NAME).html $(SRC_DIR)/cv.md
 
 # Target for building CV document in PDF
 pdf: html pdftags
 ifeq ($(HTMLTOPDF),wkpdf)
-	wkpdf --paper a4 --margins 30 --print-background yes --orientation portrait --stylesheet-media print --source $(DIST_DIR)/cv.html --output $(DIST_DIR)/cv.pdf
+	wkpdf --paper a4 --margins 30 --print-background yes --orientation portrait --stylesheet-media print --source $(DIST_DIR)/$(DIST_NAME).html --output $(DIST_DIR)/cv.pdf
 else
-	wkhtmltopdf --print-media-type --orientation Portrait --page-size A4 --margin-top 15 --margin-left 15 --margin-right 15 --margin-bottom 15 $(DIST_DIR)/cv.html $(DIST_DIR)/cv.pdf
+	wkhtmltopdf --print-media-type --orientation Portrait --page-size A4 --margin-top 15 --margin-left 15 --margin-right 15 --margin-bottom 15 $(DIST_DIR)/$(DIST_NAME).html $(DIST_DIR)/cv.pdf
 endif
 	exiftool $(shell cat $(BUILD_DIR)/pdftags.txt) $(DIST_DIR)/cv.pdf
 
@@ -108,4 +109,9 @@ $(PARTS): $(BUILD_DIR)/%.html: $(SRC_DIR)/%.md | directories
 clean:
 	rm -rf $(DIST_DIR)
 	rm -rf $(BUILD_DIR)
+
+# Deploy to gh-pages
+deploy:
+	git push origin :gh-pages || echo 'git remote branch gh-pages does not exist currently'
+	git subtree push --prefix dist origin gh-pages
 
