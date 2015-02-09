@@ -148,6 +148,11 @@ Q/K
 
     I am comfortable with both languages and enjoy them on a personal level though I would not recommend their use in a production environment.
 
+Mathematica
+:   ★★★☆☆
+
+    Though I have several years experience in Mathematica I have not used in year a few years. Python has replaced it as my data analytics tool of choice.
+
 Haskell
 :   ★★☆☆☆
 
