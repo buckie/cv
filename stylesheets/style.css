@@ -213,7 +213,6 @@ header h1 span[itemprop="givenName"] {
 /* line 66, ../../stylesheets/style.scss */
 header h1 span[itemprop="familyName"] {
   color: black;
-  text-transform: uppercase;
 }
 /* line 69, ../../stylesheets/style.scss */
 header h2 {
