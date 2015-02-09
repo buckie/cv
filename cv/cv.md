@@ -19,9 +19,9 @@ footer: |
 Profile
 -------
 
-I revel in being thrown a sufficiently difficult problem or large dataset and having to find the solution without being told the question. Working with a good team is key. Intelligent, driven, genuine, and curious people are a must - these are personal traits that I like to see in others and which I do my best to exhibit myself. When left to my own devices, I’ll seek out that which I don’t yet understand and the people who understand them.
+I revel in being thrown a sufficiently difficult problem or large dataset and having to find the solution without being told the question. Working with a good team is key. Intelligent, driven, genuine, and curious people are a must - these are personal traits that I like to see in others and which I do my best to exhibit myself. When left to my own devices, I will seek out that which I do not yet understand and the people who understand them.
 
-I’m always interested in discussing hard problems. Feel free to reach out if you have one and think I may be interested.
+I am always interested in discussing hard problems. Feel free to reach out if you have one and think I may be interested.
 
 Education
 ---------
@@ -36,16 +36,16 @@ Education
 :   *Hacker School*, New York, NY
 
     About
-      ~ Hacker School is the programmer's equivilent to a Writer's retreat. The experience consists of 3 months of self directed work on whatever one is passionate about. My time was dedicated gaining a better mastery of Haskell specifically and core engineering generally – something I realized that I could not attain whilst working full time at the SEC. Thus, I chose to take a sabbatical from the SEC to pursue these interests full time.
+      ~ Hacker School is the programmer's equivalent to a Writer's retreat. The experience consists of 3 months of self directed work on whatever one is passionate about. My time was dedicated gaining a better mastery of Haskell specifically and core engineering generally – something I realized that I could not attain whilst working full time at the SEC. Thus, I chose to take a sabbatical from the SEC to pursue these interests full time.
 
     Topics
       ~ Wavelet & Fractal Based 1-Dimensional Clustering Algorithm (Python + Cython)
-      ~ Finding a bug in go's GetEnv function and comparing it to the behavior of c, node, haskell, & python
+      ~ Finding a bug in go's GetEnv function and comparing it to the behavior of C, Node, Haskell, & Python
       ~ Bitly clone using Scotty & STM-Containers (Haskell) and React (JS)
       ~ Creating a database optimized for dense, write once, Time Series data domains (Haskell)
 
     Languages
-      ~ Haskell, Python, JS, go, c, scala, PureScript
+      ~ Haskell, Python, JS, go, C, Scala, PureScript
 
     Libraries
       ~ Haskell: Parsec, Attoparsec, Vector, Lens, Scotty, STM, STM-Containers
@@ -121,12 +121,12 @@ Technologies
 Python
 :   ★★★★★
 
-    By far my most comfortable language. I have signifigant experience with the majority of its major libraries for the domains of application development (e.g. django, flask), data science (e.g. pandas, scikit-learn) and numerical/performance critical applications (e.g. numpy, pytables, cython). I have also taught/mentored several people of varying skill levels in python.
+    By far my most comfortable language. I have significant experience with the majority of its major libraries for the domains of application development (e.g. django, flask), data science (e.g. pandas, scikit-learn) and numerical/performance critical applications (e.g. numpy, pytables, cython). I have also taught/mentored several people of varying skill levels in python.
 
 VBA
 :   ★★★★★
 
-     I am, somewhat unfortunately, a master of this language. At the SEC the only langauge we were able to use for a prolonged period was VBA. As such, I designed an alternative approach to programming in VBA which discarded much of its agreed upon best practices and leveraged functional principals to ensure long term maintainability and application performance for a VBA codebase of over 30k lines. The approach is best described as an intermediate representation of a Haskell program.
+     I am, somewhat unfortunately, a master of this language. At the SEC the only language we were able to use for a prolonged period was VBA. As such, I designed an alternative approach to programming in VBA which discarded much of its agreed upon best practices and leveraged functional principals to ensure long term maintainability and application performance for a VBA code base of over 30k lines. The approach is best described as an intermediate representation of a Haskell program.
 
 SQL
 :   ★★★★★
@@ -136,7 +136,7 @@ SQL
 Linux Powertools
 :   ★★★★☆
 
-    This encompasses the command line in general as well as correctly & reproducibly configuring an enviroment.
+    This encompasses the command line in general as well as correctly & reproducibly configuring an environment.
 
 HTML/CSS
 :   ★★★☆☆
@@ -151,7 +151,7 @@ Q/K
 Haskell
 :   ★★☆☆☆
 
-    My current langauage of interest. Though I've studied it for several years, only in the past several months have I begun to feel comfortable with it. However, the study of Haskell has had a profound and positive impact on both how I think about engineering and how I implement solutions.
+    My current language of interest. Though I've studied it for several years, only in the past several months have I begun to feel comfortable with it. However, the study of Haskell has had a profound and positive impact on both how I think about engineering and how I implement solutions.
 
 JS
 :   ★★☆☆☆
