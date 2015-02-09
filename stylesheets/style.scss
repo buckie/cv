@@ -63,7 +63,7 @@ header {
 
     h1 {
         span[itemprop="givenName"] { color: $firstname-color; }
-        span[itemprop="familyName"] { color: $familyname-color; text-transform: uppercase; }
+        span[itemprop="familyName"] { color: $familyname-color; }
     }
 
     h2 {
