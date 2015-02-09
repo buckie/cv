@@ -60,6 +60,9 @@ Experience
 
     Founding member and “Head of Tech” of the Quantitative Analytics Unit (QAU) in the SEC’s National Exam Program. The QAU is dedicated to both analyzing the computer driven strategies of top financial institutions as well as to the development of software designed to aid the Commission's ability to understand & regulate. My responsibilities ranged from designing our servers & computer lab to analyzing High Frequency Trading data to being the Lead Engineer of the National Exam Analytics Tool (NEAT). NEAT was the first in-house development effort undertaken at the SEC and represented a paradigm shift in how the SEC regulates registrants specifically and how Techonology Projects are executed at the SEC generally. Created using FOSS technologies, NEAT has been such a wild success that is currently deployed nationwide to the SEC's nearly 2000 Examinations & Enforcement staff members as well as being incorporated into the core of the National Examination Program.
 
+    Technologies Used
+      ~ Python (pandas, numpy, flask, ...), VBA, SQL, qSQL, sh, Q, K4, C, C++, HTML/CSS, Javascript (React), SQLite, PostgreSQL, Excel, Linux, Windows
+
 4/2007 – Present
 :   **Co-Author/Researcher** with Prof. Michael Frame, *Yale University*, New Haven, CT & Remote
 
@@ -67,15 +70,24 @@ Experience
 
     This research is still ongoing and likely always will be in my free time, just in a more diminished fashion. Recent work has revolved around a Wavelet based approach, which has been showing better results, implemented in python. Please refer to the `github.com/buckie/wtmm-python` for further details.
 
+    Technologies Used
+      ~ Mathematica, Python (Pandas, Numpy, Cython, Scipy)
+
 10/2012 – 2/2013
 :   **Software Engineer**, *AxialMarket*, New York, NY
 
     Worked on building out the Data Analytics and Science backend. Reoriented the paradigms used for data collection and consumption. Retooled Axial’s (then) current front end to analytics solution. Worked mostly in Python and Shell on AWS. My experience there was fantastic and it taught me a huge amount about both development and UNIX.
 
+    Technologies Used
+      ~ Python, grep/sed/awk, sh, Linux, MySQL, Django, Redis
+
 1/2012 – 9/2012
 :   **Quantitative Researcher (Consultant)**, *Barca Capital*, Remote
 
     Engaged to develop fractal geometry approach to evaluating bond information in emerging markets to determine yield appropriate long tailed distributions for use in Monte Carlo simulations.
+
+    Technologies Used
+      ~ Mathematica, Python
 
 3/2011 – 7/2012
 :   **Support Analyst**, *ION Trading*, New York, NY
@@ -121,7 +133,7 @@ Technologies
 Python
 :   ★★★★★
 
-    By far my most comfortable language. I have significant experience with the majority of its major libraries for the domains of application development (e.g. django, flask), data science (e.g. pandas, scikit-learn) and numerical/performance critical applications (e.g. numpy, pytables, cython). I have also taught/mentored several people of varying skill levels in python.
+    By far my most comfortable language. I have significant experience with the majority of its major libraries for the domains of application development (e.g. django, flask), data science (e.g. pandas, scikit-learn) and numerical/performance critical applications (e.g. numpy, pytables, cython). I have also mentored several people of varying skill levels in python.
 
 VBA
 :   ★★★★★
@@ -168,7 +180,7 @@ Interests ∪ Hobbies
 ----------------------
 
 Technical
-:   Arduino Development & Hardware Hacking, Statistical Learning, Automation of Regular Activities, Keyboards, UNIX (generally), Web Development (generally)
+:   Arduino Development & Hardware Hacking, Statistical Learning, Automation of Regular Activities, Keyboards, UNIX (generally), and Web Development (generally)
 
 Travel
 :   India, Nepal, Australia, New Zealand, France, Italy, England, Dubai UAE
