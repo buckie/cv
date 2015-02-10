@@ -148,7 +148,7 @@ SQL
 Linux Powertools
 :   ★★★★☆
 
-    This encompasses the command line in general as well as correctly & reproducibly configuring an environment.
+    This encompasses the command line in general (grep, sed, awk, etc...) as well as correctly & reproducibly configuring an environment.
 
 HTML/CSS
 :   ★★★☆☆
@@ -173,7 +173,7 @@ Haskell
 JS
 :   ★★☆☆☆
 
-    Though not a fan of the language, I do respect its power and prevalence. I can debug/fix things in JS as needed. My current interest in JS lays in the D3 and React libraries.
+    I can debug/fix things in JS as needed. My current interest in JS lays in the D3 and React libraries.
 
 
 Interests ∪ Hobbies
