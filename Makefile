@@ -58,6 +58,7 @@ style: stylesheets/*.scss
 	  --javascripts-dir javascripts \
 	  --css-dir $(DIST_DIR)/stylesheets \
 	  --image-dir $(IMAGES_DIR) \
+		--no-line-comments \
 	  stylesheets/style.scss
 
 # Target for media
