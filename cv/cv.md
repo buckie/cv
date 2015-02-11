@@ -163,7 +163,7 @@ Q/K
 Mathematica
 :   ★★★☆☆
 
-    Though I have several years experience in Mathematica I have not used in year a few years. Python has replaced it as my data analytics tool of choice.
+    Though I have several years experience in Mathematica I have not used it in year a few years. Python has replaced it as my data analytics tool of choice.
 
 Haskell
 :   ★★☆☆☆
