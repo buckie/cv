@@ -97,7 +97,7 @@ Experience
 6/2005 – 9/2005
 :   **Co-Author/Researcher** with Prof. Juan de la Mora, *Yale University*, New Haven, CT
 
-    Personally uncovered that the results of two years worth of worldwide measurements of Ionic :iquids were skewed by contamination and that a widely accepted, scientific measurement method was incorrect. Redesign of the methodology yielded not only the desired information but also was the subject of a paper that was published in a leading chemistry journal.
+    Personally uncovered that the results of two years worth of worldwide measurements of Ionic Liquids were skewed by contamination and that a widely accepted, scientific measurement method was incorrect. Redesign of the methodology yielded not only the desired information but also was the subject of a paper that was published in a leading chemistry journal.
 
 
 Publications
